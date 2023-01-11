@@ -1,11 +1,11 @@
 {
   "name": "grid-bookmarklet",
-  "version": "1.0.0",
-	"private": true,
+  "version": "2.0.0",
+  "private": true,
   "description": "Something I use every now and then to check Web layouts: A grid bookmarklet.",
-	"license": "MIT",
+  "license": "MIT",
   "repository": "github:mrcgrtz/grid-bookmarklet",
-	"author": {
+  "author": {
     "name": "Marc Görtz",
     "email": "git@marcgoertz.de",
     "url": "https://marcgoertz.de/"
