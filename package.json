@@ -1,0 +1,24 @@
+{
+  "name": "grid-bookmarklet",
+  "version": "1.0.0",
+	"private": true,
+  "description": "Something I use every now and then to check Web layouts: A grid bookmarklet.",
+	"license": "MIT",
+  "repository": "github:mrcgrtz/grid-bookmarklet",
+	"author": {
+    "name": "Marc Görtz",
+    "email": "git@marcgoertz.de",
+    "url": "https://marcgoertz.de/"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "tsup",
+    "test": "xo"
+  },
+  "devDependencies": {
+    "tsup": "^6.5.0",
+    "xo": "^0.53.1"
+  }
+}
