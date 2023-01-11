@@ -3,8 +3,8 @@ const node = document.querySelector(`#${id}`);
 
 const css = `
 :root {
-  --${id}-offset: 0;
-  --${id}-max-width: 76rem;
+  --${id}-offset: 1rem;
+  --${id}-max-width: 100%;
   --${id}-columns: 6;
   --${id}-gutter: 1rem;
   --${id}-color: hsla(204, 80%, 72%, 0.25);
@@ -12,30 +12,28 @@ const css = `
 
 @media (min-width: 36rem) {
   :root {
-		--${id}-offset: 1rem;
     --${id}-color: hsla(286, 51%, 44%, 0.25);
   }
 }
 
 @media (min-width: 48rem) {
   :root {
-		--${id}-offset: 0;
+		--${id}-offset: 2rem;
     --${id}-columns: 12;
-		--${id}-max-width: 44rem;
+		--${id}-max-width: 57rem;
     --${id}-color: hsla(204, 80%, 72%, 0.25);
   }
 }
 
 @media (min-width: 62rem) {
   :root {
-		--${id}-max-width: 60rem;
+		--${id}-max-width: 75.25rem;
     --${id}-color: hsla(286, 51%, 44%, 0.25);
   }
 }
 
 @media (min-width: 80rem) {
   :root {
-		--${id}-max-width: 76rem;
     --${id}-color: hsla(204, 80%, 72%, 0.25);
   }
 }

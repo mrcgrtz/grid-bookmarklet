@@ -1,7 +1,7 @@
 (()=>{var e="grid-bookmarklet",r=document.querySelector(`#${e}`),n=`
 :root {
-  --${e}-offset: 0;
-  --${e}-max-width: 76rem;
+  --${e}-offset: 1rem;
+  --${e}-max-width: 100%;
   --${e}-columns: 6;
   --${e}-gutter: 1rem;
   --${e}-color: hsla(204, 80%, 72%, 0.25);
@@ -9,30 +9,28 @@
 
 @media (min-width: 36rem) {
   :root {
-		--${e}-offset: 1rem;
     --${e}-color: hsla(286, 51%, 44%, 0.25);
   }
 }
 
 @media (min-width: 48rem) {
   :root {
-		--${e}-offset: 0;
+		--${e}-offset: 2rem;
     --${e}-columns: 12;
-		--${e}-max-width: 44rem;
+		--${e}-max-width: 57rem;
     --${e}-color: hsla(204, 80%, 72%, 0.25);
   }
 }
 
 @media (min-width: 62rem) {
   :root {
-		--${e}-max-width: 60rem;
+		--${e}-max-width: 75.25rem;
     --${e}-color: hsla(286, 51%, 44%, 0.25);
   }
 }
 
 @media (min-width: 80rem) {
   :root {
-		--${e}-max-width: 76rem;
     --${e}-color: hsla(204, 80%, 72%, 0.25);
   }
 }
