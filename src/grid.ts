@@ -27,7 +27,7 @@ const css = `
 
 @media (min-width: 62rem) {
   :root {
-		--${id}-max-width: 75.25rem;
+		--${id}-max-width: 76.25rem;
     --${id}-color: hsla(286, 51%, 44%, 0.25);
   }
 }

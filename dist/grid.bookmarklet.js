@@ -24,7 +24,7 @@
 
 @media (min-width: 62rem) {
   :root {
-		--${e}-max-width: 75.25rem;
+		--${e}-max-width: 76.25rem;
     --${e}-color: hsla(286, 51%, 44%, 0.25);
   }
 }
