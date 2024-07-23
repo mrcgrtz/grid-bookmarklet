@@ -18,7 +18,7 @@
     "test": "xo"
   },
   "devDependencies": {
-    "tsup": "^8.1.0",
+    "tsup": "^8.2.2",
     "xo": "^0.59.0"
   }
 }
