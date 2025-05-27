@@ -12,6 +12,12 @@ export default defineConfig({
 			js: '.bookmarklet.js',
 		};
 	},
+	/**
+	 * This function is executed after a successful build.
+	 * It reads the generated JavaScript file, converts its content into a bookmarklet format,
+	 * and writes the result to a text file. Any errors encountered during this process
+	 * are logged to the console but are not propagated further.
+	 */
 	async onSuccess(): Promise<void> {
 		try {
 			const code = await readFile('./dist/grid.bookmarklet.js', 'utf8');
