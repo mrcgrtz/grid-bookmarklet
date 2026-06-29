@@ -18,7 +18,7 @@
     "test": "xo"
   },
   "devDependencies": {
-    "@types/node": "^26.0.0",
+    "@types/node": "^26.0.1",
     "tsup": "^8.5.1",
     "xo": "^3.0.2"
   }
