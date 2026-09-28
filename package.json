@@ -20,6 +20,6 @@
   "devDependencies": {
     "@types/node": "^26.6.2",
     "tsup": "^8.5.1",
-    "xo": "^4.0.0"
+    "xo": "^5.0.1"
   }
 }
